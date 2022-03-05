@@ -233,7 +233,7 @@ ul {
 @media(max-width:991px){
   .login-body{
     overflow: auto;
-    align-items: flex-start;
+    align-items: flex-end;
   }
 }
 
