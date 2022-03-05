@@ -223,7 +223,6 @@ ul {
 .login-body {
   background-color: #2c2f30;
   overflow: hidden;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -345,14 +344,15 @@ ul {
 
 .under-footer{
   position: absolute;
-  bottom:0;
+  top:0;
   left:0;
   right:0;
   direction: rtl;
   background-color: #2C2F30;
   z-index: 333;
   color:#fff;
-
+  margin-bottom: 40px;
+  width:100%;
 }
 
 .under-footer-menu{
@@ -379,6 +379,25 @@ ul {
   }
 }
 
+.navbar-nav .nav-link{
+  color:#fff ;
+  justify-content: center;
+}
+
+.navbar-nav a:hover{
+  color:#84c7ae;
+
+}
+
+.navbar-nav a:active{
+  color:#84c7ae
+}
+
+
+.navbar-toggler{
+  color:#fff;
+  
+}
 
 /* ================== APPLE PAGE ============== */
 .search-bar {

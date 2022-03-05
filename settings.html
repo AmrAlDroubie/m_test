@@ -13,6 +13,33 @@
 </head>
 
 <body>
+
+    <!-- navbar -->
+    <nav class="under-footer navbar navbar-expand-lg position-static">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div class="logo-image">
+                    <img src="images/logo.png" alt="">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-lg-center justify-content-start" id="navbarSupportedContent">
+                <ul class="navbar-nav text-lg-start text-center">
+                    <li class="nav-item"><a href="#" class="nav-link">الاسم</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">الاسم</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">الاسم</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">الاسم</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">الاسم</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
     <div class="settings-logo text-center">
         <p>
             الإعدادات
@@ -123,9 +150,14 @@
     </footer>
 
     
-
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+         let date = new Date();
+        let year = date.getFullYear();
+        document.querySelector("#this-year").innerHTML = year;
+    </script>
 </body>
 
 </html>
