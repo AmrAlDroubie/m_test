@@ -356,7 +356,7 @@ ul {
 }
 
 .under-footer-menu{
-
+  justify-content: center;
 }
 
 .under-footer-menu a{
@@ -763,4 +763,8 @@ select::-ms-expand {
 .footer-floor-2{
   background-color: #2C2F30;
   box-shadow: 0 0 18px #525659;
+}
+
+.logo-image img{
+  width:150px;
 }
